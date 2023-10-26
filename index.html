@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRESS DETECTION IN FACIAL</title>
+    <style>
+        /* CSS for the dark theme header */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f309f3; /* Dark background color */
+            color: #0e0d0d; /* White text color */
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #0897f7; /* Darker header background color */
+            padding: 12px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>STRESS DETECTION</h1>
+    </header>
+    <div>
+        <p></p>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRESS DETECTION IN FACIAL</title>
+    <style>
+        /* CSS for the dark theme homepage */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ec09bb; /* Dark background color */
+            color: #1f1d1d; /* White text color */
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #0952ee; /* Darker header background color */
+            padding: 14px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            background-image: url('your-background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 97px 0;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>STRESS DETECTION IN FACIAL</h1>
+    </header>
+    <div class="container">
+        <section class="hero">
+            <h2>Home,Stress Detection Tool,Procession,Result,How it work,Benebit,About us,Contact up</h2>
+        </section>
+        <div>
+            <p></p>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stress Detection Tool</title>
+    <style>
+        body {
+            background-color: #0e58e0ee;
+            color: #201f1f;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        #stress-level {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #21e6ec;
+            color: #f3e40b;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #11b5e7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stress Detection Tool</h1>
+        <p>Current Stress Level: <span id="stress-level">Normal</span></p>
+        <button id="detect-stress">Detect Stress</button>
+    </div>
+
+    <script>
+        document.getElementById('detect-stress').addEventListener('click', function() {
+            // Implement your stress detection algorithm here
+            // You can update the stress level text based on the result
+            document.getElementById('stress-level').innerText = 'High';
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processing Section</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #f0ce0c;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        #processing-status {
+            font-size: 18px;
+        }
+
+        #progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #d50ce7;
+            position: relative;
+        }
+
+        #progress-fill {
+            width: 0;
+            height: 100%;
+            background-color: #0ac2f0;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Processing Section</h1>
+        <p>Processing Status: <span id="processing-status">In Progress</span></p>
+        <div id="progress-bar">
+            <div id="progress-fill"></div>
+        </div>
+    </div>
+
+    <script>
+        // Simulating a processing progress
+        const progressBar = document.getElementById('progress-fill');
+        let progress = 0;
+        const interval = setInterval(() => {
+            if (progress >= 100) {
+                clearInterval(interval);
+                document.getElementById('processing-status').innerText = 'Processing Complete';
+            } else {
+                progress += 5; // Adjust this value based on your processing
+                progressBar.style.width = `${progress}%`;
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Section</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #fce40c;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        #result {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Result Section</h1>
+        <p>Here is your result:</p>
+        <div id="result">
+            <!-- JavaScript will populate the result here -->
+        </div>
+    </div>
+
+    <script>
+        // Replace the following line with your JavaScript logic to populate the result
+        document.getElementById('result').innerText = 'This is the result of your analysis.';
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #fad60a;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .step {
+            margin: 20px 0;
+            border: 2px solid #d007eb;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .step h2 {
+            font-size: 18px;
+        }
+
+        .step p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>How It Works</h1>
+
+        <div class="step">
+            <h2>Step 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque ante id arcu euismod, at venenatis massa posuere.</p>
+        </div>
+
+        <div class="step">
+            <h2>Step 2</h2>
+            <p>Proin ut erat at nisi vestibulum feugiat. Integer vel felis tincidunt, laoreet metus at, dignissim mi. Aenean euismod augue vitae mi consequat, nec pharetra odio feugiat.</p>
+        </div>
+
+        <div class="step">
+            <h2>Step 3</h2>
+            <p>Suspendisse potenti. Sed id ex vitae nisl accumsan venenatis. Suspendisse potenti. Phasellus sit amet tincidunt libero, in feugiat elit.</p>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benefits Section</title>
+    <style>
+        body {
+            background-color: #312f2f;
+            color: #f3c90d;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .benefit {
+            margin-bottom: 20px;
+            border: 2px solid #0c08e7;
+            padding: 20px;
+        }
+
+        .benefit h2 {
+            font-size: 18px;
+        }
+
+        .benefit p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Benefits Section</h1>
+        <div class="benefit">
+            <h2>Benefit 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque ante id arcu euismod.</p>
+        </div>
+
+        <div class="benefit">
+            <h2>Benefit 2</h2>
+            <p>Proin ut erat at nisi vestibulum feugiat. Integer vel felis tincidunt, laoreet metus at, dignissim mi.</p>
+        </div>
+
+        <div class="benefit">
+            <h2>Benefit 3</h2>
+            <p>Suspendisse potenti. Sed id ex vitae nisl accumsan venenatis. Suspendisse potenti.</p>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            background-color: #292727;
+            color: #f0a70b;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .about-us {
+            margin: 20px 0;
+        }
+
+        .about-us h2 {
+            font-size: 18px;
+        }
+
+        .about-us p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Us</h1>
+
+        <div class="about-us">
+            <h2>Our Story</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque ante id arcu euismod, at venenatis massa posuere. Proin vel pharetra massa.</p>
+        </div>
+
+        <div class="about-us">
+            <h2>Our Mission</h2>
+            <p>Proin ut erat at nisi vestibulum feugiat. Integer vel felis tincidunt, laoreet metus at, dignissim mi. Aenean euismod augue vitae mi consequat, nec pharetra odio feugiat.</p>
+        </div>
+
+        <div class="about-us">
+            <h2>Our Team</h2>
+            <p>Suspendisse potenti. Sed id ex vitae nisl accumsan venenatis. Suspendisse potenti. Phasellus sit amet tincidunt libero, in feugiat elit.</p>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: #2c2a2a;
+            color: #f3a30d;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .contact-form {
+            background-color: #d10eeb;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .contact-form label, .contact-form input, .contact-form textarea, .contact-form button {
+            display: block;
+            margin: 10px 0;
+            width: 100%;
+            color: #f7b80ae5;
+        }
+
+        .contact-form button {
+            background-color: #0cc1ee;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
